@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 15pt;
+}
+
+header, footer {
+  min-height: 10vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  border-bottom: double;
+}
+
+#contact-info ul{
+ display: inline;
+}
